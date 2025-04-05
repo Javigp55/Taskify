@@ -1,0 +1,8 @@
+Django
+whitenoise
+djangorestframework
+django-cors-headers
+python-dotenv 
+psycopg2-binary
+django-environ
+djangorestframework-simplejwt
