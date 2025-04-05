@@ -164,8 +164,7 @@ CORS_ALLOWED_ORIGINS = [
     'https://localhost:5173', 
     'https://127.0.0.1:5173',
     'https://vercel.app',
-    'https://react-django-gestion-tareas-eeye.vercel.app',
-    "https://react-django-gestion-tareas.vercel.app",
+    'https://javigp55.github.io/',
 ]
 
 

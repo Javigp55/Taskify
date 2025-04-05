@@ -1,7 +1,7 @@
 import axios from "axios";
 import Cookies from "js-cookie"
 
-const PROD = "https://react-django-gestion-tareas.vercel.app/tasks/api/"
+const PROD = "https://taskify-five-alpha.vercel.app/tasks/api/"
 const DEV = "https://127.0.0.1:8000/tasks/api"
 const instance = axios.create({
   withCredentials: true,
