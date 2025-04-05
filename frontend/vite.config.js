@@ -5,7 +5,7 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/React-Django-GestionTareas/',
+  base: '/Taskify/',
   plugins: [react(), tailwindcss(),],
 
   // server: {
