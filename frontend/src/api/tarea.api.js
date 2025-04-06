@@ -2,7 +2,7 @@ import axios from "axios";
 import Cookies from "js-cookie"
 
 const PROD = "https://taskify-five-alpha.vercel.app/tasks/api/"
-const DEV = "https://127.0.0.1:8000/tasks/api"
+const DEV = "http://127.0.0.1:8000/tasks/api"
 const instance = axios.create({
   withCredentials: true,
   baseURL: PROD,

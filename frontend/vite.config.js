@@ -1,11 +1,11 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
-// import fs from 'fs'
+//import fs from 'fs'
 import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/Taskify/',
+  //base: '/Taskify/',
   plugins: [react(), tailwindcss(),],
 
   // server: {

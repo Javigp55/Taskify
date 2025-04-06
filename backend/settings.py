@@ -29,7 +29,7 @@ SECRET_KEY = os.getenv('KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', '.vercel.app', 'https://react-django-gestion-tareas.vercel.app/']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', '.vercel.app', 'https://taskify-five-alpha.vercel.app/']
 
 
 # Application definition
@@ -45,7 +45,6 @@ INSTALLED_APPS = [
     'rest_framework',
     'rest_framework_simplejwt',
     'corsheaders',
-
 ]
 
 MIDDLEWARE = [

@@ -14,7 +14,7 @@ function App() {
     <div className="flex flex-col min-h-screen">
       <main className="flex-grow bg-gradient-to-b from-lime-100 to-white">
     <AuthContext>
-      <BrowserRouter basename="/Taskify">
+      <BrowserRouter>
           <Navigation />
           <Routes>
             <Route path="/" element={<Inicio />} />
